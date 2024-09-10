@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": false,
+    "declaration": false,
+    "strictBindCallApply": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["es2022", "es2023", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "useDefineForClassFields": true,
+    "isolatedModules": true,
+    "paths": {
+      "@test/*": ["apps/vitest-test/src/*"]
+    },
+    "baseUrl": "."
+  },
+  "exclude": ["node_modules", "tmp"]
+}

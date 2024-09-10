@@ -1,0 +1,1 @@
+export const blaMapper = (bla: string) => bla;
